@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { CursosRoutingModule } from './cursos-routing.module';
 import { CursosComponent } from './cursos/cursos.component';
+import { AppMaterialModuleTsModule } from '../shared/app-material.module.ts/app-material.module.ts.module';
 
-import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import {MatTableModule} from '@angular/material/table';
   imports: [
     CommonModule,
     CursosRoutingModule,
-    MatTableModule
+    AppMaterialModuleTsModule
   ]
 })
 export class CursosModule { }
